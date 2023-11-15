@@ -1,5 +1,10 @@
 # NotesApp
 
+**- CRUD**
+**- SQLITE**
+
+--------------------------------------------------------------------
+
 This is a simple note app. **CRUD operations** were enabled using **SQLite** in the project.
 
 You can create a new note, edit and delete data you have previously created.

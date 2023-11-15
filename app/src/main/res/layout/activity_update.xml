@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:id="@+id/editNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Edit Your Note"
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editNoteHeading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_done" />
+
+    <EditText
+        android:id="@+id/updateTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:hint="Edit the title"
+        android:layout_below="@id/editNoteHeading"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/orange_border"
+        android:textColor="@color/orange"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/upddateContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:hint="Edit the description"
+        android:gravity="top"
+        android:layout_below="@id/updateTitleEditText"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/orange_border"
+        android:textColor="@color/orange"
+        android:textSize="18sp"/>
+</RelativeLayout>
